@@ -1,6 +1,6 @@
 {
   "name": "chalk-advanced",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Chalk-advanced is my own version of chalk i made for fun",
   "main": "index.js",
   "scripts": {
