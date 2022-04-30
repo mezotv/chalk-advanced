@@ -2,7 +2,7 @@
  
 Chalk-advanced is my own version of chalk i made for fun.
 
-[![npm](https://img.shields.io/badge/npm-chalk-advanced-red)](https://www.npmjs.com/package/pokedev.js) 
+[![npm](https://img.shields.io/badge/npm-chalk-advanced-red)](https://www.npmjs.com/package/chalk-advanced) 
 
 [![size](https://img.shields.io/github/repo-size/mezotv/chalk-advance?color=red&label=SIZE)](https://www.npmjs.com/package/pokedev.js)
 
