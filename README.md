@@ -28,9 +28,9 @@ Install  chalk-advanceds with yarn
 ## Code Example
 
 ```js
-const { black } = require("./src/chalk-advanced");
+const { ChalkAdvanced } = require("chalk-advanced");
 
-console.log(black("Hello World!"));
+console.log(ChalkAdvanced.red("Hello World!"));
 ```
 
 ## Colors

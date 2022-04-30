@@ -1,6 +1,6 @@
 {
   "name": "chalk-advanced",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Chalk-advanced is my own version of chalk i made for fun",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/mezotv/chalk-advanced/issues"
   },
-  "homepage": "https://github.com/mezotv/chalk-advanced#readme"
+  "homepage": "https://github.com/mezotv/chalk-advanced#readme",
+  "dependencies": {
+    "chalk-advanced": "^1.0.1"
+  }
 }
