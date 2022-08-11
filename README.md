@@ -86,4 +86,4 @@ console.log(ChalkAdvanced.red("Hello World!"));
 
 ## Contributors
 
-![image](https://contrib.rocks/image?repo=metzotv/chalk-advanced)
+![image](https://contrib.rocks/image?repo=mezotv/chalk-advanced)
