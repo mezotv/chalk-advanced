@@ -1,7 +1,7 @@
 {
   "name": "chalk-advanced",
-  "version": "1.0.3",
-  "description": "Chalk-advanced is my own version of chalk i made for fun",
+  "version": "1.0.4",
+  "description": "Chalk-advanced is my own version of chalk I made for fun",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
