@@ -41,6 +41,9 @@ export {
   inverse,
   hide,
   strikethrough,
+  hex,
+  rgb,
+  hsl
 };
 
 declare function black(text: string): string;
@@ -81,6 +84,9 @@ declare function underline(text: string): string;
 declare function inverse(text: string): string;
 declare function hide(text: string): string;
 declare function strikethrough(text: string): string;
+declare function hex(code: string, text: string): string;
+declare function rgb(r: number, g: number, b: number, text: string): string;
+declare function hsl(h: number, s: number, l: number, text: string): string;
 
 declare class ChalkAdvanced {
   black(text: string): string;
@@ -121,4 +127,7 @@ declare class ChalkAdvanced {
   inverse(text: string): string;
   hide(text: string): string;
   strikethrough(text: string): string;
+  hex(code: string, text: string): string;
+  rgb(r: number, g: number, b: number, text: string): string;
+  hsl(h: number, s: number, l: number, text: string): string;
 }

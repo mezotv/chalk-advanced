@@ -1,6 +1,6 @@
 {
   "name": "chalk-advanced",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Chalk-advanced is a library that allows you to color your console output.",
   "main": "index.js",
   "scripts": {

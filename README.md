@@ -1,6 +1,6 @@
 # chalk-advanced
 
-Chalk-advanced is my own version of chalk I made for fun.
+Chalk-advanced is a library that allows you to color your console output.
 
 [![size](https://img.shields.io/github/repo-size/mezotv/chalk-advanced?color=red&label=SIZE)](https://www.npmjs.com/package/chalk-advanced)
 
@@ -39,6 +39,12 @@ console.log(ChalkAdvanced.red('Hello World!'));
 const { red } = require('chalk-advanced');
 
 console.log(red('Hello World!'));
+```
+
+```js
+const { rgb } = require('chalk-advanced');
+
+console.log(rgb(250, 30, 107, "Hello World!"));
 ```
 
 ## Colors
@@ -81,6 +87,9 @@ console.log(red('Hello World!'));
 - **`inverse(text)`**:
 - **`hide(text)`**:
 - **`strikethrough(text)`**:
+- **`hex(code, text)`**:
+- **`hsl(h, s, l, text)`**:
+- **`rgb(r, g, b, text)`**:
 
 ## Contributors
 

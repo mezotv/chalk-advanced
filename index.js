@@ -40,6 +40,10 @@ const {
   strikethrough
 } = require('./src/ChalkAdvanced');
 
+const { hex } = require("./src/components/hex");
+const { rgb } = require("./src/components/rgb");
+const { hsl } = require("./src/components/hsl");
+
 module.exports = {
   ChalkAdvanced: require("./src/ChalkAdvanced"),
   black: black,
@@ -79,5 +83,8 @@ module.exports = {
   underline: underline,
   inverse: inverse,
   hide: hide,
-  strikethrough: strikethrough
+  strikethrough: strikethrough,
+  hex: hex,
+  rgb: rgb,
+  hsl: hsl
 }
