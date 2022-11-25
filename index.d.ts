@@ -1,7 +1,8 @@
 // Type definitions for chalk-advanced
 // Definitions by: MarcDev
 
-export = {
+export {
+  ChalkAdvanced,
   black,
   red,
   green,
@@ -39,8 +40,8 @@ export = {
   underline,
   inverse,
   hide,
-  strikethrough
-}
+  strikethrough,
+};
 
 declare function black(text: string): string;
 declare function red(text: string): string;
@@ -80,3 +81,44 @@ declare function underline(text: string): string;
 declare function inverse(text: string): string;
 declare function hide(text: string): string;
 declare function strikethrough(text: string): string;
+
+declare class ChalkAdvanced {
+  black(text: string): string;
+  red(text: string): string;
+  green(text: string): string;
+  yellow(text: string): string;
+  blue(text: string): string;
+  magenta(text: string): string;
+  cyan(text: string): string;
+  white(text: string): string;
+  gray(text: string): string;
+  redBright(text: string): string;
+  greenBright(text: string): string;
+  yellowBright(text: string): string;
+  blueBright(text: string): string;
+  magentaBright(text: string): string;
+  cyanBright(text: string): string;
+  whiteBright(text: string): string;
+  bgBlack(text: string): string;
+  bgRed(text: string): string;
+  bgGreen(text: string): string;
+  bgYellow(text: string): string;
+  bgBlue(text: string): string;
+  bgMagenta(text: string): string;
+  bgCyan(text: string): string;
+  bgWhite(text: string): string;
+  bgRedBright(text: string): string;
+  bgGreenBright(text: string): string;
+  bgYellowBright(text: string): string;
+  bgBlueBright(text: string): string;
+  bgMagentaBright(text: string): string;
+  bgCyanBright(text: string): string;
+  bgWhiteBright(text: string): string;
+  bold(text: string): string;
+  dim(text: string): string;
+  italic(text: string): string;
+  underline(text: string): string;
+  inverse(text: string): string;
+  hide(text: string): string;
+  strikethrough(text: string): string;
+}
