@@ -90,3 +90,7 @@ console.log(rgb(250, 30, 107, "Hello World!"));
 - **`hex(code, text)`**:
 - **`hsl(h, s, l, text)`**:
 - **`rgb(r, g, b, text)`**:
+
+## Contributors
+
+![image](https://contrib.rocks/image?repo=mezotv/chalk-advanced)
