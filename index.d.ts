@@ -43,7 +43,7 @@ export {
   strikethrough,
   hex,
   rgb,
-  hsl
+  hsl,
 };
 
 declare function black(text: string): string;

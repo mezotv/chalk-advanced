@@ -1,5 +1,5 @@
 /* Exporting the ChalkAdvanced class from the src/chalk-advanced.js file. */
-const { 
+const {
   black,
   red,
   green,
@@ -37,8 +37,8 @@ const {
   underline,
   inverse,
   hide,
-  strikethrough
-} = require('./src/ChalkAdvanced');
+  strikethrough,
+} = require("./src/ChalkAdvanced");
 
 const { hex } = require("./src/components/hex");
 const { rgb } = require("./src/components/rgb");
@@ -57,7 +57,7 @@ module.exports = {
   gray: gray,
   redBright: redBright,
   greenBright: greenBright,
-  yellowBright:yellowBright,
+  yellowBright: yellowBright,
   blueBright: blueBright,
   magentaBright: magentaBright,
   cyanBright: cyanBright,
@@ -86,5 +86,5 @@ module.exports = {
   strikethrough: strikethrough,
   hex: hex,
   rgb: rgb,
-  hsl: hsl
-}
+  hsl: hsl,
+};

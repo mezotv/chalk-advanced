@@ -1,8 +1,9 @@
 {
   "name": "chalk-advanced",
-  "version": "1.0.6",
-  "description": "Chalk-advanced is a library that allows you to color your console output.",
+  "version": "1.0.7",
+  "description": "Chalk-advanced is a library that allows you to add color to the output of your console.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "node test.js"
   },
@@ -13,9 +14,10 @@
   "keywords": [
     "chalk",
     "chalk-advanced",
-    "console"
+    "console",
+    "terminal"
   ],
-  "author": "Mezo",
+  "author": "Dominik",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mezotv/chalk-advanced/issues"

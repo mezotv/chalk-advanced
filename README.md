@@ -1,6 +1,9 @@
 # chalk-advanced
 
-Chalk-advanced is a library that allows you to color your console output.
+Chalk-advanced is a library that allows you to color your console output. This tool is used by projects like [Would You Bot](https://wouldyoubot.gg).
+
+[![npm](https://img.shields.io/npm/v/chalk-advanced?color=red&label=VERSION)](https://www.npmjs.com/package/chalk-advanced)
+
 
 [![size](https://img.shields.io/github/repo-size/mezotv/chalk-advanced?color=red&label=SIZE)](https://www.npmjs.com/package/chalk-advanced)
 
